@@ -1,0 +1,214 @@
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-color: darkorange;
+  margin-bottom: 40px;
+}
+
+.headtitle {
+  font-family: fantasy;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin: 5px 0 0 10px;
+  padding: 20px 0 20px 20px;
+}
+
+
+/* ---  header nav --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: fantasy;
+}
+
+header nav ul li a:hover {
+  color: orange;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .headtitle {
+    margin: 10px 0 10px 5px;
+    padding-top: 30;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+/* ---  Primary Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+.hookem {   
+  background-color: darkorange;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 50px 0;
+}
+
+footer {
+  background-color: darkorange;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* ---  Typography --- */
+
+h1 {
+  font-size: 28px;
+  font-family: fantasy;
+  font-weight: 900;
+  color: #403933;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: fantasy;
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+p {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+main a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+main  a:link { color: black; }
+main  a:visited { color: black; }
+main  a:hover { color: orange; }
+a:active { color: black; }
+
+
+a:hover {
+	text-decoration: line-through;	
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+main img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/* --- Desktop --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* Contact Form */
+
+form {
+  margin-left: 10px;
+}
+
+form label {
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 200px;
+}
+
+
+
+
+
+
+
